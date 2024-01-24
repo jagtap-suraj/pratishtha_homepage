@@ -1,0 +1,126 @@
+/**************************/
+/* HEADER */
+/**************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+
+  /* Because we want header to be sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+/**************************/
+/* HERO SECTION */
+/**************************/
+
+.section-hero {
+  padding: 3.2rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+/* .hero-img {
+  width: 100%;
+} */
+
+/**************************/
+/* EVENT BANNER SECTION */
+/**************************/
+
+.section-event-banner {
+  padding: 9.6rem 0;
+}
+
+.banner-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+
+.banner-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 3.2rem;
+}
+
+.banner-img-box {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-img {
+  width: 80%;
+
+  /* z-index: 10; */
+}
+
+/**************************/
+/* chronicles SECTION */
+/**************************/
+
+.section-chronicles {
+  display: flex;
+  /* grid-template-columns: 25fr 52fr; */
+
+  align-items: center;
+  justify-content: center;
+}
+
+.chronicles-container {
+  padding: 9.6rem;
+}
+
+.chronicles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+  justify-content: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+  margin-right: -4.8rem;
+}
+
+.gallery-item img {
+  display: block;
+  width: 80%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+/**************************/
+.section-council {
+  margin: 9.6rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
