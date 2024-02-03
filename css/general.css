@@ -70,12 +70,11 @@ html {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Crimson", sans-serif;
   /* font-family: "Times New Roman", Times, serif; */
   line-height: 1;
   font-weight: 400;
   color: #555;
-  background-color: #fcdbe1;
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
@@ -176,6 +175,7 @@ body {
   font-weight: 600;
   padding: 1.2rem 3.2rem;
   border-radius: 9px;
+  max-width: fit-content;
 
   /* Only necessary for .btn */
   border: none;

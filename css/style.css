@@ -18,7 +18,8 @@
 /**************************/
 
 .section-hero {
-  padding: 3.2rem 0 9.6rem 0;
+  padding: 2.4rem 0 4.8rem 0;
+  background-color: #fcdbe1;
 }
 
 .hero {
@@ -50,22 +51,94 @@
 }
 
 .banner-img-box {
-  position: relative;
-
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding: 0 0;
+  max-width: fit-content;
+
   /* justify-content: center; */
 }
 
 .banner-img {
-  width: 80%;
+  width: 90%;
 
   /* z-index: 10; */
+}
+
+.section-event-banner-2 {
+  /* padding: 9.6rem 0; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* margin: 0 auto; */
+  /* set left right margin */
+}
+
+.event-container-2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 28rem;
+  padding-bottom: 9.6rem;
+  justify-content: space-evenly;
+
+  width: 100%;
+}
+
+.event-container-yuva {
+  background-image: url(../img/backgrounds/yuva_final.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.event-container-olympus {
+  background-image: url(../img/backgrounds/olympus_final.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.event-container-aurum {
+  background-image: url(../img/backgrounds/aurum_final.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.event-container-verve {
+  background-image: url(../img/backgrounds/verve_final.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner-text-box-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 3.2rem;
+  max-width: 50rem;
+}
+
+.middle-img {
+  width: 100%;
+  background-color: #fcdbe1;
 }
 
 /**************************/
 /* chronicles SECTION */
 /**************************/
+
+.container-chronicles {
+  background-image: url(../img/backgrounds/chronicles_final.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 22rem;
+  padding-bottom: 9.6rem;
+}
 
 .section-chronicles {
   display: flex;
@@ -111,7 +184,8 @@
 
 /**************************/
 .section-council {
-  margin: 9.6rem 0;
+  margin-top: 9.6rem;
+  margin-bottom: 3.2rem;
   display: flex;
   justify-content: center;
   align-items: center;

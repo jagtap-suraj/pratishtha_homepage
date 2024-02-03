@@ -11,6 +11,13 @@
       rel="stylesheet"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
@@ -32,10 +39,14 @@
         </div>
       </section>
 
+      <div class="center-text middle-img">
+        <img src="img/elements/line1.png" alt="Hero Background" />
+      </div>
+
       <!-- Event Banners -->
-      <section class="section-event-banner">
-        <div class="container grid grid--2-cols grid--center-v">
-          <!-- banner 01 -->
+      <section class="section-event-banner-2">
+        <!-- Yuva Banner -->
+        <div class="event-container-2 event-container-yuva">
           <div class="banner-img-box">
             <img
               src="img/banners/yuva_banner.png"
@@ -43,7 +54,7 @@
               alt="Yuva's Banner"
             />
           </div>
-          <div class="banner-text-box">
+          <div class="banner-text-box-2">
             <h3 class="heading-tertiary">
               Journey Begins With Yuva Embrace Your Youth
             </h3>
@@ -51,11 +62,19 @@
               Taking you back to the carefree days where dreams were sprouted.
               Yuva symbolizes the golden phase of youth.
             </p>
-            <a href="#" class="btn btn--full btn--yuva">View More</a>
+            <a href="#" class="btn btn--yuva">View More</a>
           </div>
+        </div>
 
-          <!-- banner 02 -->
-          <div class="banner-text-box">
+        <img
+          src="img/backgrounds/spring_and_summer_merge.png"
+          alt="Spring and Summer Background"
+          class="middle-img"
+        />
+
+        <!-- Olympus Banner -->
+        <div class="event-container-2 event-container-olympus">
+          <div class="banner-text-box-2">
             <h3 class="heading-tertiary">
               It's time to get your game face on: Olympus
             </h3>
@@ -74,8 +93,16 @@
               alt="Olympus's Banner"
             />
           </div>
+        </div>
 
-          <!-- banner 03 -->
+        <img
+          src="img/backgrounds/frame5.png"
+          alt="Spring and Summer Background"
+          class="middle-img"
+        />
+
+        <!-- Aurum Banner -->
+        <div class="event-container-2 event-container-aurum">
           <div class="banner-img-box">
             <img
               src="img/banners/aurum_banner.png"
@@ -83,7 +110,7 @@
               alt="Aurum's Banner"
             />
           </div>
-          <div class="banner-text-box">
+          <div class="banner-text-box-2">
             <h3 class="heading-tertiary">Where technology meets creativity</h3>
             <p class="banner-description">
               Aurum combines a high energy hackathon with fun engaging events.
@@ -92,9 +119,17 @@
             </p>
             <a href="#" class="btn btn--full btn--aurum">View More</a>
           </div>
+        </div>
 
-          <!-- banner 04 -->
-          <div class="banner-text-box">
+        <img
+          src="img/backgrounds/autumn_and_winter_merge.png"
+          alt="Spring and Summer Background"
+          class="middle-img"
+        />
+
+        <!-- Verve Banner -->
+        <div class="event-container-2 event-container-verve">
+          <div class="banner-text-box-2">
             <h3 class="heading-tertiary">
               Energize the spirit, ignite the passion - Verve
             </h3>
@@ -112,49 +147,60 @@
       </section>
 
       <!-- Chronicles -->
-      <section>
-        <div class="container center-text">
-          <h2 class="heading-secondary center-text">
-            Chronicles From the Past
-          </h2>
-        </div>
-      </section>
+      <section class="container-chronicles">
+        <section>
+          <div class="container center-text">
+            <h2 class="heading-secondary center-text">
+              Chronicles From the Past
+            </h2>
+          </div>
+        </section>
 
-      <!-- Gallery -->
-      <section class="section-chronicles">
-        <div class="gallery">
-          <figure class="gallery-item">
-            <img src="img/gallery/event_aurum.png" alt="Aurum Event's Photo" />
-          </figure>
-          <figure class="gallery-item">
-            <img
-              src="img/gallery/event_olympus1.png"
-              alt="Aurum Event's Photo"
-            />
-          </figure>
-          <figure class="gallery-item">
-            <img
-              src="img/gallery/event_olympus2.png"
-              alt="Aurum Event's Photo"
-            />
-          </figure>
-          <figure class="gallery-item">
-            <img src="img/gallery/event_verve1.png" alt="Aurum Event's Photo" />
-          </figure>
-          <figure class="gallery-item">
-            <img src="img/gallery/event_verve2.png" alt="Aurum Event's Photo" />
-          </figure>
-          <figure class="gallery-item">
-            <img src="img/gallery/event_yuva.png" alt="Aurum Event's Photo" />
-          </figure>
-        </div>
-      </section>
+        <!-- Gallery -->
+        <section class="section-chronicles">
+          <div class="gallery">
+            <figure class="gallery-item">
+              <img
+                src="img/gallery/event_aurum.png"
+                alt="Aurum Event's Photo"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                src="img/gallery/event_olympus1.png"
+                alt="Aurum Event's Photo"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                src="img/gallery/event_olympus2.png"
+                alt="Aurum Event's Photo"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                src="img/gallery/event_verve1.png"
+                alt="Aurum Event's Photo"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                src="img/gallery/event_verve2.png"
+                alt="Aurum Event's Photo"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img src="img/gallery/event_yuva.png" alt="Aurum Event's Photo" />
+            </figure>
+          </div>
+        </section>
 
-      <!-- Council -->
-      <section>
-        <div class="section-council">
-          <a href="#" class="btn btn--full btn--council">Meet The Council</a>
-        </div>
+        <!-- Council -->
+        <section>
+          <div class="section-council">
+            <a href="#" class="btn btn--full btn--council">Meet The Council</a>
+          </div>
+        </section>
       </section>
     </main>
   </body>

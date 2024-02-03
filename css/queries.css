@@ -152,7 +152,7 @@
     justify-content: center;
   }
 
-  .banner-img-box:nth-child(2) {
+  /* .banner-img-box:nth-child(2) {
     grid-row: 1;
   }
 
@@ -162,7 +162,7 @@
 
   .banner-img-box:nth-child(8) {
     grid-row: 7;
-  }
+  } */
 
   .banner-img-box {
     transform: translateY(2.4rem);
