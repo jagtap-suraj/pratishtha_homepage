@@ -2,17 +2,16 @@
 /* HEADER */
 /**************************/
 
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #fdf2e9;
 
-  /* Because we want header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
   position: relative;
-}
+} */
 
 /**************************/
 /* HERO SECTION */
@@ -44,13 +43,6 @@
   padding: 9.6rem 0;
 }
 
-.banner-number {
-  font-size: 8.6rem;
-  font-weight: 600;
-  color: #ddd;
-  margin-bottom: 1.2rem;
-}
-
 .banner-description {
   font-size: 1.8rem;
   line-height: 1.8;
@@ -64,8 +56,6 @@
   align-items: center;
   justify-content: center;
 }
-
-
 
 .banner-img {
   width: 80%;
