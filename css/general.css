@@ -71,9 +71,11 @@ html {
 
 body {
   font-family: "Rubik", sans-serif;
+  /* font-family: "Times New Roman", Times, serif; */
   line-height: 1;
   font-weight: 400;
   color: #555;
+  background-color: #fcdbe1;
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
@@ -143,7 +145,7 @@ body {
 }
 
 .heading-secondary {
-  font-size: 4.4rem;
+  font-size: 3.3rem;
   line-height: 1.2;
   margin-bottom: 6.4rem;
 }
@@ -185,17 +187,6 @@ body {
   transition: all 0.3s;
 }
 
-.btn--full:link,
-.btn--full:visited {
-  background-color: #e67e22;
-  color: #fff;
-}
-
-.btn--full:hover,
-.btn--full:active {
-  background-color: #cf711f;
-}
-
 .btn--outline:link,
 .btn--outline:visited {
   background-color: #fff;
@@ -212,16 +203,64 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
-.btn--form {
-  background-color: #45260a;
-  color: #fdf2e9;
-  align-self: end;
-  padding: 1.2rem;
+.btn--yuva:link,
+.btn--yuva:visited {
+  background-color: #ffffff;
+  color: #d82628;
 }
 
-.btn--form:hover {
-  background-color: #fff;
-  color: #555;
+.btn--yuva:hover,
+.btn--yuva:active {
+  background-color: #d82628;
+  color: #ffffff;
+}
+
+.btn--olympus:link,
+.btn--olympus:visited {
+  background-color: #ffffff;
+  color: #c17400;
+}
+
+.btn--olympus:hover,
+.btn--olympus:active {
+  background-color: #c17400;
+  color: #ffffff;
+}
+
+.btn--aurum:link,
+.btn--aurum:visited {
+  background-color: #ffffff;
+  color: #b64c00;
+}
+
+.btn--aurum:hover,
+.btn--aurum:active {
+  background-color: #b64c00;
+  color: #ffffff;
+}
+
+.btn--verve:link,
+.btn--verve:visited {
+  background-color: #ffffff;
+  color: #04669d;
+}
+
+.btn--verve:hover,
+.btn--verve:active {
+  background-color: #04669d;
+  color: #ffffff;
+}
+
+.btn--council:link,
+.btn--council:visited {
+  background-color: #ffffff;
+  color: #5e3f00;
+}
+
+.btn--council:hover,
+.btn--council:active {
+  background-color: #5e3f00;
+  color: #ffffff;
 }
 
 .link:link,
@@ -240,27 +279,6 @@ body {
   border-bottom: 1px solid transparent;
 }
 
-.list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-}
-
-.list-item {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-  line-height: 1.2;
-}
-
-.list-icon {
-  width: 3rem;
-  height: 3rem;
-  color: #e67e22;
-}
-
 *:focus {
   outline: none;
   /* outline: 4px dotted #e67e22; */
@@ -269,7 +287,7 @@ body {
 }
 
 /* HELPER/SETTINGS CLASSES */
-.margin-right-sm {
+/* .margin-right-sm {
   margin-right: 1.6rem !important;
 }
 
@@ -283,4 +301,4 @@ body {
 
 strong {
   font-weight: 500;
-}
+} */
