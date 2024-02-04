@@ -75,6 +75,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  background-color: #fcdbe1;
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
@@ -91,19 +92,19 @@ body {
   margin: 0 auto;
 }
 
-.grid {
+/* .grid {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
 
-  /* margin-bottom: 9.6rem; */
-}
+
+} */
 
 /* .grid:last-child {
   margin-bottom: 0;
 } */
 
-.grid:not(:last-child) {
+/* .grid:not(:last-child) {
   margin-bottom: 9.6rem;
 }
 
@@ -117,15 +118,15 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
-}
+} */
 
 /* .grid--5-cols {
   grid-template-columns: repeat(5, 1fr);
 } */
 
-.grid--center-v {
+/* .grid--center-v {
   align-items: center;
-}
+} */
 
 .heading-primary,
 .heading-secondary,
@@ -187,7 +188,7 @@ body {
   transition: all 0.3s;
 }
 
-.btn--outline:link,
+/* .btn--outline:link,
 .btn--outline:visited {
   background-color: #fff;
   color: #555;
@@ -197,11 +198,8 @@ body {
 .btn--outline:active {
   background-color: #fdf2e9;
 
-  /* border: 3px solid #fff; */
-
-  /* Trick to add border inside */
   box-shadow: inset 0 0 0 3px #fff;
-}
+} */
 
 .btn--yuva:link,
 .btn--yuva:visited {
@@ -263,7 +261,7 @@ body {
   color: #ffffff;
 }
 
-.link:link,
+/* .link:link,
 .link:visited {
   display: inline-block;
   color: #e67e22;
@@ -277,7 +275,7 @@ body {
 .link:active {
   color: #cf711f;
   border-bottom: 1px solid transparent;
-}
+} */
 
 *:focus {
   outline: none;
@@ -287,18 +285,18 @@ body {
 }
 
 /* HELPER/SETTINGS CLASSES */
-.margin-right-sm {
+/* .margin-right-sm {
   margin-right: 1.6rem !important;
 }
 
 .margin-bottom-md {
   margin-bottom: 4.8rem !important;
-}
+} */
 
 .center-text {
   text-align: center;
 }
 
-strong {
+/* strong {
   font-weight: 500;
-}
+} */
